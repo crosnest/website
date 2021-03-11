@@ -151,17 +151,23 @@
       <div data-w-id="3372c3b5-a214-570f-280d-1c66bca69d43" style="-webkit-transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 55PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="cta-block">
         <div class="subheading">Ready to stake?</div>
         <h3>Register by entering your email below. </h3>
-        <div class="form-block w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" class="subscribe-form-flex">
-            <div class="subscribe-form-input-wrapper"><input type="email" class="subscribe-form-input w-input" maxlength="256" name="Subscriber-Email" data-name="Subscriber Email" placeholder="johndoe@gmail.com" id="Subscriber-Email" required=""></div><input type="submit" value="Register" data-wait="Please wait..." class="submit-button w-button">
-          </form>
-          <div class="w-form-done">
-            <div>Thank you! Your submission has been received!</div>
-          </div>
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form.</div>
-          </div>
-        </div>
+        <form
+  action="https://formspree.io/f/xzbkngez"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
         <p>Stake to our node before March 31st 2021 and get reimbursed for any slashing.<br>Conditions apply* </p>
       </div>
     </div>
