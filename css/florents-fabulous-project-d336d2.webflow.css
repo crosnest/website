@@ -905,6 +905,10 @@ p {
     grid-row-gap: 32px;
   }
 
+  .grid-column {
+    padding-right: 0px;
+  }
+
   .content-grid {
     grid-column-gap: 62px;
     grid-row-gap: 62px;
@@ -1069,6 +1073,12 @@ p {
     width: 100%;
   }
 
+  .js-clock {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
   .who-we-are-section {
     padding-top: 82px;
     padding-bottom: 82px;
@@ -1109,4 +1119,3 @@ p {
     order: -9999;
   }
 }
-
