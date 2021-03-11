@@ -1028,6 +1028,10 @@ p {
   .subscribe-form-2 {
     padding: 40px 20px;
   }
+
+  .nav-menu-2 {
+    background-color: #070e27;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1119,4 +1123,3 @@ p {
     order: -9999;
   }
 }
-
