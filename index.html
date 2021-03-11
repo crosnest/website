@@ -152,7 +152,12 @@
         <div class="subheading">Ready to stake?</div>
         <h3>Register by entering your email below. </h3>
         <div class="form-block w-form">
-          <form id="email-form" name="email-form" data-name="Email Form" class="subscribe-form-flex">
+          
+            <form action="https://formspree.io/f/xzbkngez" method="POST">
+            <input type="email" name="_replyto" class="subscribe-form-input w-input">
+            <input type="submit" value="Send" class="submit-button w-button">
+            </form>
+            <form id="email-form" name="email-form" data-name="Email Form" class="subscribe-form-flex">
             <div class="subscribe-form-input-wrapper"><input type="email" class="subscribe-form-input w-input" maxlength="256" name="Subscriber-Email" data-name="Subscriber Email" placeholder="johndoe@gmail.com" id="Subscriber-Email" required=""></div><input type="submit" value="Register" data-wait="Please wait..." class="submit-button w-button">
           </form>
           <div class="w-form-done">
@@ -163,10 +168,7 @@
           </div>
         </div>
         <p>Stake to our node before March 31st 2021 and get reimbursed for any slashing.<br>Conditions apply* </p>
-          <form action="https://formspree.io/f/xzbkngez" method="POST">
-  <input type="email" name="_replyto">
-  <input type="submit" value="Send">
-</form>
+          
       </div>
     </div>
   </div>
