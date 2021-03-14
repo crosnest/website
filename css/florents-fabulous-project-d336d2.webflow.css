@@ -592,10 +592,10 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -630,7 +630,7 @@ p {
 }
 
 .link-wrap {
-  display: none;
+  display: block;
 }
 
 .nav-link {
@@ -649,6 +649,7 @@ p {
   padding-top: 35px;
   color: #ccd2e9;
   font-size: 12px;
+  text-align: center;
 }
 
 .footer-wrap-2 {
@@ -907,6 +908,20 @@ p {
 
 .privacy-section {
   padding: 3%;
+}
+
+.text-link-terms {
+  display: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #ccd2e9;
+  text-decoration: none;
+}
+
+.text-link-terms:hover {
+  color: #fff;
 }
 
 @media screen and (max-width: 991px) {
