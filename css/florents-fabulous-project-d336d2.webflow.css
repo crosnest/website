@@ -906,8 +906,7 @@ p {
 }
 
 .privacy-section {
-  padding-right: 3%;
-  padding-left: 3%;
+  padding: 3%;
 }
 
 @media screen and (max-width: 991px) {
