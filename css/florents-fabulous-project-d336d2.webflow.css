@@ -1017,6 +1017,10 @@ p {
   color: #fff;
 }
 
+.nav-link-5 {
+  color: #ccd2e9;
+}
+
 @media screen and (max-width: 991px) {
   .container-navigation {
     position: relative;
