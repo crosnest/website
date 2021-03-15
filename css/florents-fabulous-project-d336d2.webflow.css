@@ -418,6 +418,7 @@ p {
 .cta-section {
   margin-bottom: 60px;
   padding: 32px 3%;
+  color: #ccd2e9;
 }
 
 .link-block {
@@ -810,13 +811,13 @@ p {
 }
 
 .form-block {
+  display: none;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .submit-button {
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  border-radius: 8px;
   background-color: #689eff;
 }
 
@@ -1019,6 +1020,10 @@ p {
 
 .nav-link-5 {
   color: #ccd2e9;
+}
+
+.html-embed {
+  padding-bottom: 30px;
 }
 
 @media screen and (max-width: 991px) {
