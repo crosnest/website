@@ -509,6 +509,10 @@ p {
   margin-bottom: 0px;
 }
 
+.paragraph-2 {
+  font-weight: 800;
+}
+
 .check {
   margin-right: 14px;
 }
