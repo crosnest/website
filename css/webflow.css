@@ -52,7 +52,7 @@ body {
   font-family: Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333;
+  color: #ccd2e9;
 }
 img {
   max-width: 100%;
@@ -214,6 +214,7 @@ h2 {
   font-size: 32px;
   line-height: 36px;
   margin-top: 20px;
+
 }
 h3 {
   font-size: 24px;
