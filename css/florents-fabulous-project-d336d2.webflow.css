@@ -1034,6 +1034,117 @@ p {
   padding-bottom: 30px;
 }
 
+.paragraph-2 {
+  font-weight: 800;
+}
+
+.main-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f7f9fa;
+}
+
+.black {
+  color: #000;
+}
+
+
+.text-block-guide h1 {
+  color: #000;
+}
+
+.text-block-guide p {
+  color: #000;
+}
+
+.text-block-guide h3 {
+  color: #000;
+}
+
+.text-block-guide h4 {
+  color: #000;
+}
+
+.text-block-guide-intro h1 {
+  color: #000;
+}
+
+.text-block-guide-intro p {
+  color: #000;
+}
+
+.text-block-guide-intro h3 {
+  color: #000;
+}
+
+.text-block-guide-intro h4 {
+  color: #000;
+}
+
+.text-block-guide-defi-wallet h1 {
+  color: #000;
+}
+
+.text-block-guide-defi-wallet p {
+  color: #000;
+}
+
+.text-block-guide-defi-wallet h3 {
+  color: #000;
+}
+
+.text-block-guide-defi-wallet h4 {
+  color: #000;
+}
+
+.text-block-guide-defi h1 {
+  color: #000;
+}
+
+.text-block-guide-defi p {
+  color: #000;
+}
+
+.text-block-guide-defi h3 {
+  color: #000;
+}
+
+.text-block-guide-defi h4 {
+  color: #000;
+}
+
+.text-block-guide-desktop h1 {
+  color: #000;
+}
+
+.text-block-guide-desktop p {
+  color: #000;
+}
+
+.text-block-guide-desktop h3 {
+  color: #000;
+}
+
+.text-block-guide-desktop h4 {
+  color: #000;
+}
+
+.text-block-guide-chain-maind h1 {
+  color: #000;
+}
+
+.text-block-guide-chain-maind p {
+  color: #000;
+}
+
+.text-block-guide-chain-maind h3 {
+  color: #000;
+}
+
+.text-block-guide-chain-maind h4 {
+  color: #000;
+}
+
 @media screen and (max-width: 991px) {
   .container-navigation {
     position: relative;
