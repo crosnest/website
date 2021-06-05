@@ -1,3 +1,17 @@
+/* Home Page */
+.carousel {width:100%;height:440px;min-height:440px;position:relative;}
+.carousel-indicators {padding-left:0;width:60%;margin-left:-30%;text-align:center;position:absolute;bottom:0;left:50%;z-index:1;}
+.carousel-indicators li {display:inline-block;width:12px;height:12px;margin:1px 4px;border-radius:50%;box-sizing:content-box;text-indent:-999px;background-color:#fff;cursor:pointer;}
+.carousel-indicators li.active {margin:0 3px;border:solid 1px #fff;background-color:transparent;}
+.carousel-inner {display:table;width:100%;height:440px;min-height:440px;position:relative;}
+.carousel-inner .item {display:table-cell;vertical-align:bottom;background-position:center top;position:relative;-moz-background-size:100%;-webkit-background-size:100%;background-size:100%;-webkit-transition:.6s ease-in-out left; background-repeat:no-repeat}
+.carousel-inner .item.active {}
+.carousel-inner img {width:100%;}
+.carousel-inner .inner {margin-left:auto;margin-right:auto;padding:20px 0 50px 0;text-align:center;color:#fff;background:rgba(0,0,0,.5);}
+.carousel-inner .heading {margin:0;line-height:1.5;font-size:32px;}
+.carousel-inner .lead {margin:0;line-height:1.5;font-size:20px;}
+
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -289,6 +303,39 @@ p {
   margin-bottom: 32px;
 }
 
+.online{
+	background: #64E65F;
+    width: 8px;
+    height: 8px;
+    border-radius: 24px;
+    float: left;
+    margin: 9px;
+}
+
+
+.featured{
+	background: #689eff;
+    border-radius: 24px;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 20px;
+    color:#fff;
+}
+
+.delegate{
+	background: #0059f7;
+    border-radius: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-block-start: 50pt;
+    margin-left: 50pt;
+    margin-right: 50pt;
+    align-content: center;
+    color:#fff;
+    text-align: center;
+}
+
 .feature-grid {
   grid-column-gap: 40px;
   grid-row-gap: 40px;
@@ -321,9 +368,10 @@ p {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 24px;
-  background-color: #0059f7;
+  background-color: #033283;
   text-align: center;
 }
+
 
 .grid-column {
   padding-right: 50px;
@@ -630,7 +678,7 @@ p {
 }
 
 .social-wrap {
-  display: none;
+  display: block;
 }
 
 .social-link {
