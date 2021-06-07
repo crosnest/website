@@ -316,9 +316,8 @@ p {
 .featured{
 	background: #689eff;
     border-radius: 24px;
-    float: left;
-    padding-left: 8px;
-    padding-right: 8px;
+    float: right;
+    padding: 2px 20px 2px 20px;
     margin-right: 20px;
     color:#fff;
 }
@@ -326,14 +325,12 @@ p {
 .delegate{
 	background: #0059f7;
     border-radius: 24px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin-block-start: 50pt;
-    margin-left: 50pt;
-    margin-right: 50pt;
+    padding: 2px 20px 2px 20px;
     align-content: center;
+    float:left;
     color:#fff;
     text-align: center;
+    margin-top: 20px;
 }
 
 .feature-grid {
