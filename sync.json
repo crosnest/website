@@ -1,0 +1,18 @@
+[
+  {
+    "file": "data-mainnet-922361.tar.lz4",
+    "network": "mainnet",
+    "link": "<a href='http://62.171.129.174:8000/data-mainnet-922361.tar.lz4'>Download</a>",
+    "checksum": "<a href='http://62.171.129.174:8000/data-mainnet-922361.tar.lz4.checksum'>Checksum</a>",
+    "size": "69G",
+    "date": "2021-06-11 04:14:12.571784239 +0200"
+  },
+  {
+    "file": "data-testnet-1.tar.lz4",
+    "network": "testnet",
+    "link": "<a href='http://62.171.129.174:8000/data-mainnet-922361.tar.lz4'>Download</a>",
+    "checksum": "<a href='http://62.171.129.174:8000/data-mainnet-922361.tar.lz4.checksum'>Checksum</a>",
+    "size": "0G",
+    "date": "2021-06-11 04:14:12.571784239 +0200"
+  }
+]
