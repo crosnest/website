@@ -1477,3 +1477,45 @@ p {
   font-style: normal;
   font-display: swap;
 }
+
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.table-header{
+    padding: 8px 15px;
+    color: white;
+    font-size: 18px;
+    background-color: #162044;
+    font-weight: 400;
+}
+
+.table-row-container{
+    padding: 8px 15px;
+    background-color: #ededed;
+}
+
+.table-row-container:nth-child(odd) {
+    background-color: #fcfcfc
+}
+
+.table-firstrow{
+    width: 200px;
+    padding-right: 10px;
+    box-sizing: border-box
+}
+
+.table-secoundtrow{
+    width: 600px;
+    padding-right: 10px;
+    box-sizing: border-box
+}
+
+.table-thirdrow{
+    width: 100px;
+    padding-right: 10px;
+    box-sizing: border-box
+}
