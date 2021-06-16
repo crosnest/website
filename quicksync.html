@@ -159,6 +159,22 @@
             </div>
         </div>
 
+        <script src="js/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="></script>
+        <div><br></div>
+        <div class="table-row-container" ><canvas id="Chart"></canvas></div>
+
+        <script>
+        $.getJSON("json/history.json", function(json) {
+            // Get the context of the canvas element we want to select
+            var ctx = document.getElementById("Chart").getContext("2d");
+
+            // Instantiate a new chart using 'data' (defined below)
+            var data = JSON.parse(JSON.stringify(json));
+            data.options.plugins.title.display = true;
+            var myChart = new Chart(ctx, data);
+            });
+
+        </script>
         <br>
         <br>
         <div align="center">
