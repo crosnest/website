@@ -27,6 +27,9 @@ tar --numeric-owner --owner=1000 --group=1000 -C /home/dpierret/.chain-maind -cf
  | ssh store_serv -T -o Compression=no -x "cat > $remote_file"
 ssh store_serv "/home/dpierret/checksum.sh $remote_file create"
 ssh store_serv "chgrp www-data $remote_file*"
+# store the database size
+data_size=$(du -s ~/.chain-maind/data | cut -f1)
+ssh store_serv "/home/dpierret/data_size.py add $data_size"
 
 echo "send finished"
 # HALT is next day (86400 sec / days)
