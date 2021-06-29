@@ -3,8 +3,7 @@ import os
 import json
 from time import strptime, strftime, gmtime
 
-# sync_folder = "/home/dpierret/www"
-sync_folder = "./"
+sync_folder = "/var/www/html"
 size_history_data = {}
 
 if len(sys.argv) == 3:
@@ -15,7 +14,7 @@ else:
     exit(1)
 
 try:
-    with open(os.path.join(sync_folder, "../json/history.json"), "r") as f:
+    with open(os.path.join(sync_folder, "json/history.json"), "r") as f:
         size_history_data = json.load(f)
 except IOError:
     size_history_data = json.loads("""{
@@ -47,5 +46,5 @@ size_date = strftime("%m/%d", new_size_date)
 size_history_data["data"]["labels"].append(size_date)
 size_history_data["data"]["datasets"][0]["data"].append("{0:.0f}".format(new_size))
 
-with open(os.path.join(sync_folder, "../json/history.json"), "w") as outfile:
+with open(os.path.join(sync_folder, "json/history.json"), "w") as outfile:
     json.dump(size_history_data, outfile, indent=4)
