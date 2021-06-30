@@ -29,7 +29,7 @@ ssh store_serv "/home/dpierret/checksum.sh $remote_file create"
 ssh store_serv "chgrp www-data $remote_file*"
 # store the database size
 data_size=$(du -s ~/.chain-maind/data | cut -f1)
-ssh store_serv "/home/dpierret/data_size.py add $data_size"
+ssh store_serv "/home/dpierret/data_size.py $data_size $halt_time"
 
 echo "send finished"
 # HALT is next day (86400 sec / days)
