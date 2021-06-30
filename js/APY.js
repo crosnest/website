@@ -13,3 +13,5 @@ data.forEach(function(data) {
     osmosis_apy.innerHTML = data.header4.replace(/\n/g, '');
  });
 }
+
+window.addEventListener('DOMContentLoaded', init)
