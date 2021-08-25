@@ -8,7 +8,7 @@ function init() {
           }
         })
     }
-function showInfo(data, Papa.parse) {
+function showInfo(data) {
 data.forEach(function(data) {
     cro_apy.innerHTML = data.header;
     console.log(data.header);
