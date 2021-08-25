@@ -5,11 +5,10 @@ function init() {
           complete: function(results) {
             var data = results.data
             console.log(data)
-            console.log(data.header)
           }
         })
     }
-function showInfo(data) {
+function showInfo(data, Papa.parse) {
 data.forEach(function(data) {
     cro_apy.innerHTML = data.header;
     console.log(data.header);
