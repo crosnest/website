@@ -6,18 +6,11 @@ function init() {
             var data = results.data
               console.log(data[0].header)
               cro_apy.innerHTML = data[0].header;
+              kava_apy.innerHTML = data[0].header2;
+              fetch_apy.innerHTML = data[0].header3;
+              osmosis_apy.innerHTML = data[0].header4
           }
         })
     }
-function showInfo(data) {
-data.forEach(function(data) {
-    cro_apy.innerHTML = data[0].header;
-    console.log(cro_apy.innerHTML);
-    kava_apy.innerHTML = data.header2.replace(/\n/g, '');
-    fetch_apy.innerHTML = data.header3.replace(/\n/g, '');
-    osmosis_apy.innerHTML = data.header4.replace(/\n/g, '');
-    console.log(osmosis_apy.innerHTML)
- });
-}
 
 window.addEventListener('DOMContentLoaded', init)
