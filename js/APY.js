@@ -5,6 +5,7 @@ function init() {
           complete: function(results) {
             var data = results.data
             console.log(data)
+            console.log(data.header)
           }
         })
     }
