@@ -5,12 +5,14 @@ function init() {
           complete: function(results) {
             var data = results.data
             console.log(data)
+            console.log(data[0])
+            cro_apy.innerHTML = data[0]
           }
         })
     }
 function showInfo(data) {
 data.forEach(function(data) {
-    cro_apy.innerHTML = data.header;
+    cro_apy.innerHTML = data[0];
     console.log(cro_apy.innerHTML);
     kava_apy.innerHTML = data.header2.replace(/\n/g, '');
     fetch_apy.innerHTML = data.header3.replace(/\n/g, '');
