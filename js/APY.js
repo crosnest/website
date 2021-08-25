@@ -7,12 +7,13 @@ function init() {
             console.log(data)
             console.log(data[0])
             console.log(data[0[0]])
+              console.log(data[0].header)
           }
         })
     }
 function showInfo(data) {
 data.forEach(function(data) {
-    cro_apy.innerHTML = data[0];
+    cro_apy.innerHTML = data[0].header;
     console.log(cro_apy.innerHTML);
     kava_apy.innerHTML = data.header2.replace(/\n/g, '');
     fetch_apy.innerHTML = data.header3.replace(/\n/g, '');
