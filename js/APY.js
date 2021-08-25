@@ -6,9 +6,7 @@ function init() {
             var data = results.data
             console.log(data)
             console.log(data[0])
-            console.log(data[0].1)
             console.log(data[0[0]])
-            cro_apy.innerHTML = data[0].1
           }
         })
     }
