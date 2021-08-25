@@ -8,6 +8,7 @@ function init() {
             console.log(data)
           }
         })
+    }
 function showInfo(data, tabletop) {
 data.forEach(function(data) {
     cro_apy.innerHTML = data.header.replace(/\n/g, '');
