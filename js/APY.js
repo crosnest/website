@@ -12,6 +12,7 @@ function init() {
 function showInfo(data) {
 data.forEach(function(data) {
     cro_apy.innerHTML = data.header;
+    console.log(data.header);
     kava_apy.innerHTML = data.header2.replace(/\n/g, '');
     fetch_apy.innerHTML = data.header3.replace(/\n/g, '');
     osmosis_apy.innerHTML = data.header4.replace(/\n/g, '');
