@@ -1,9 +1,13 @@
-var publicSpreadsheetUrl = '18SgICfA4La3UDA-JoaYjqhUEtRU9kAkEeqPMzXHnw-M';
+var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ33O19IECOG6D5fj7IS65kI2BCcFdfCjA63tFlMIeRXVCfLwIc7VDpLrtdKyDkC49Zt5l4AEDzcq2u/pub?output=csv';
 function init() {
-    Tabletop.init( { key: publicSpreadsheetUrl,
-                     callback: showInfo,
-                     simpleSheet: true } )
-}
+          Papa.parse('https://docs.google.com/spreadsheets/d/e/2PACX-1vQ33O19IECOG6D5fj7IS65kI2BCcFdfCjA63tFlMIeRXVCfLwIc7VDpLrtdKyDkC49Zt5l4AEDzcq2u/pub?output=csv', {
+          download: true,
+          header: true,
+          complete: function(results) {
+            var data = results.data
+            console.log(data)
+          }
+        })
 function showInfo(data, tabletop) {
 data.forEach(function(data) {
     cro_apy.innerHTML = data.header.replace(/\n/g, '');
