@@ -6,9 +6,6 @@ function init() {
           complete: function(results) {
             var data = results.data
             console.log(data)
-            cro_apy.innerHTML = data.header;
-            kava_apy.innerHTML = data.header2;
-            console.log(cro_apy.innerHTML)
           }
         })
     }
