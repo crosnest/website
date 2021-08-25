@@ -4,10 +4,8 @@ function init() {
           header: true,
           complete: function(results) {
             var data = results.data
-            console.log(data)
-            console.log(data[0])
-            console.log(data[0[0]])
               console.log(data[0].header)
+              cro_apy.innerHTML = data[0].header;
           }
         })
     }
