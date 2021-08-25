@@ -8,6 +8,8 @@ function init() {
             console.log(data)
             cro_apy.innerHTML = data.header;
             kava_apy.innerHTML = data.header2.replace(/\n/g, '');
+            fetch_apy.innerHTML = data.header3.replace(/\n/g, '');
+
 
           }
         })
